@@ -1,0 +1,77 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0}
+
+body{font:12px "宋体","Arial Narrow",HELVETICA;background:#fff;-webkit-text-size-adjust:100%}
+
+a{color:#172c45;text-decoration:none}
+
+a:hover{color:#cd0200;text-decoration:none}
+
+em{font-style:normal}
+
+li{list-style:none}
+
+img{border:0;vertical-align:middle}
+
+table{border-collapse:collapse;border-spacing:0}
+
+p{word-wrap:break-word}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+#root{
+  height: 100%;
+}
+
+.app {
+  height: 100%;
+}
+
+.Home {
+  display: flex;
+  height: 100%;
+}
+
+.Link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 150px;
+  background-color: #eeeeee;
+  font-size: 26px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    .linkItem {
+      display: block;
+      width: 100%;
+      text-align: center;
+      margin: 5px 0;
+  }
+  
+}
+
+.Jump {
+  position: absolute;
+  left: 150px;
+  width: 100%;
+  padding: 20px;
+}
+
+
+ 
